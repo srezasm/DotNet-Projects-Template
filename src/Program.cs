@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Management.Automation;
 using DotNetTemplatesCreator.Utils;
 
 namespace DotNetTemplatesCreator
 {
-
    class Program
    {
-      public static void WriteLine(string buffer, ConsoleColor foreground = ConsoleColor.DarkGreen, ConsoleColor backgroundColor = ConsoleColor.Black)
+      public static void WriteLine(string buffer, ConsoleColor foreground = ConsoleColor.Blue, ConsoleColor backgroundColor = ConsoleColor.Black)
       {
          Console.ForegroundColor = foreground;
          Console.BackgroundColor = backgroundColor;
@@ -32,6 +28,8 @@ namespace DotNetTemplatesCreator
          new CreateProjectsUtility().Execute();
          WriteLine("");
          WriteLine("operation completed ^_^");
+
+         Console.ReadKey();
       }
    }
 }
