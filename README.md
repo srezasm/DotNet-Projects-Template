@@ -1,4 +1,4 @@
-# DotNet-Core-Projects-Template
+# .Net Projects Template
 Auto code-generator for all kind of available projects in dotnet-cli
 
 - All created project are in Templates directory
