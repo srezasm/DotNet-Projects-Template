@@ -1,9 +1,0 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
-    <RootNamespace>WPF_User_Control_Library</RootNamespace>
-    <UseWPF>true</UseWPF>
-  </PropertyGroup>
-
-</Project>
