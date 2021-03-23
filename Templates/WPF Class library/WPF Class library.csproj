@@ -1,9 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
-    <RootNamespace>WPF_Class_library</RootNamespace>
-    <UseWPF>true</UseWPF>
-  </PropertyGroup>
-
-</Project>
